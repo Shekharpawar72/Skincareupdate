@@ -11,6 +11,7 @@ import ProductFilterSection from "./ProductFilterSection";
 import FaqSection from "./FaqSection";
 import Footers from "./Footers";
 import Details from "./Details";
+import homePage from "../assets/homeimage.jpg";
 
 
 
@@ -40,7 +41,7 @@ function LandingSection() {
         
         <div className=" rounded-lg p-1">
           <img
-            src={"src/assets/home page.jpg"}
+            src={homePage}
             alt="Product"
             className="w-40 h-auto object-contain rounded-md"
           />
@@ -76,7 +77,7 @@ function LandingSection() {
   
   <div className="w-8 h-8 rounded-full border-2 border-dotted border-gray-400 flex items-center justify-center">
     <img
-      src={"src/assets/home page.jpg"} 
+      src={homePage} 
       alt="Product"
       className="w-10 h-10 rounded-full object-cover"
     />

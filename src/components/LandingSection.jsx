@@ -39,13 +39,13 @@ function LandingSection() {
         </h1>
 
         
-        <div className=" rounded-lg p-1">
+{/*         <div className=" rounded-lg p-1">
           <img
             src={homePage}
             alt="Product"
             className="w-40 h-auto object-contain rounded-md"
           />
-        </div>
+        </div> */}
       </div>
         
 

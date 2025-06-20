@@ -11,7 +11,7 @@ import ProductFilterSection from "./ProductFilterSection";
 import FaqSection from "./FaqSection";
 import Footers from "./Footers";
 import Details from "./Details";
-import homePage from "../assets/homeimage.jpg";
+import homePage from "../assets/home_page.jpg";
 
 
 

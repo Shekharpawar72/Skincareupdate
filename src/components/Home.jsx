@@ -58,14 +58,14 @@ function Home() {
           ALLY
         </h1>
 
-        <div className="rounded-lg p-1">
+{/*         <div className="rounded-lg p-1">
           <img
             src={homePageImg}
             alt="Product"
             className="w-40 h-auto object-contain rounded-md"
             ref={imageRef}
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="relative flex flex-col items-center justify-center h-screen">

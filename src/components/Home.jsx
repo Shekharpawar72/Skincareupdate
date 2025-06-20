@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import accdo from "../assets/accdo.png";
-import homePageImg from "../assets/home_page.jpg";
+import homePage from "../assets/home_page.jpg";
 
 function Home() {
   const imageRef = useRef(null);
@@ -58,14 +58,14 @@ function Home() {
           ALLY
         </h1>
 
-{/*         <div className="rounded-lg p-1">
+        <div className="rounded-lg p-1">
           <img
-            src={homePageImg}
+            src={homePage}
             alt="Product"
             className="w-40 h-auto object-contain rounded-md"
             ref={imageRef}
           />
-        </div> */}
+        </div>
       </div>
 
       <div className="relative flex flex-col items-center justify-center h-screen">
@@ -89,7 +89,7 @@ function Home() {
             <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-[#EFF5E1] px-1 py-1 h-14 w-[260px] rounded-4xl shadow-md flex items-center space-x-4">
               <div className="w-8 h-8 rounded-full border-2 border-dotted border-gray-400 flex items-center justify-center">
                 <img
-                  src={homePageImg}
+                  src={homePage}
                   alt="Product"
                   className="w-10 h-10 rounded-full object-cover"
                 />
